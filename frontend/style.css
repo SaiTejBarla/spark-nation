@@ -1,0 +1,153 @@
+/* ==============================
+   Global Styles
+============================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==============================
+   Header
+============================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #1abc9c, #16a085);
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header button {
+    padding: 10px 20px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header button:hover {
+    background: #c0392b;
+}
+
+/* ==============================
+   Container and Cards
+============================== */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 22px;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* ==============================
+   Inputs
+============================== */
+input[type=text], input[type=password], input[type=file], input[type=number], textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=file]:focus, textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 8px rgba(26, 188, 156, 0.3);
+}
+
+/* ==============================
+   Buttons
+============================== */
+button {
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #1abc9c, #16a085);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #16a085, #1abc9c);
+    transform: translateY(-2px);
+}
+
+/* ==============================
+   Pre & Messages
+============================== */
+pre {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.message {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ==============================
+   Responsive Layout
+============================== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
