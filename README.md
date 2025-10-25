@@ -153,7 +153,7 @@ MIT License – see LICENSE file for details
 Contact
 Project Lead: Satya (your-email@example.com)
 
-GitHub Repository: https://github.com/your-org/incubator-platform
+GitHub Repository: https://github.com/SaiTejBarla/spark-nation
 
 ```
 ---
@@ -164,6 +164,7 @@ This README is **ready to go**, and it covers:
 - Database setup (SQL/PostgreSQL)  
 - Backend/Frontend startup  
 - Deployment-agnostic instructions (cloud or on-premise)  
+
 
 
 
