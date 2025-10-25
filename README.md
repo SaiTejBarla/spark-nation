@@ -54,15 +54,15 @@ The platform improves operational efficiency, supports data-driven decisions, an
 git clone https://github.com/your-org/incubator-platform.git
 cd incubator-platform
 Set up Python virtual environment
-
-bash
+```
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 Install dependencies
-
-bash
+```
+```bash
 Copy code
 pip install -r requirements.txt
 Configure environment variables
@@ -75,18 +75,18 @@ DATABASE_URL=postgresql://username:password@localhost:5432/incubator_db
 SECRET_KEY=your-secret-key
 DEBUG=True
 Run database migrations
-
-bash
+```
+```bash
 Copy code
 alembic upgrade head
 Start FastAPI backend
-
-bash
+```
+```bash
 Copy code
 uvicorn app.main:app --reload
 Start frontend
-
-bash
+```
+```bash
 Copy code
 cd frontend
 npm install
@@ -155,9 +155,7 @@ Project Lead: Satya (your-email@example.com)
 
 GitHub Repository: https://github.com/your-org/incubator-platform
 
-yaml
-Copy code
-
+```
 ---
 
 This README is **ready to go**, and it covers:  
@@ -167,11 +165,7 @@ This README is **ready to go**, and it covers:
 - Backend/Frontend startup  
 - Deployment-agnostic instructions (cloud or on-premise)  
 
----
 
-If you want, I can **also create a ready-made `.env.example` and Docker setup snippet** so anyone can just clone, configure, and run the platform immediately—even without knowing the final deployment environment.  
-
-Do you want me to do that next?
 
 
 
