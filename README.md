@@ -173,6 +173,7 @@ License
 MIT License – see LICENSE file for details
 
 Contact
-Project Lead: Satya (your-email@example.com)
+Project Lead: SaiTej Barla (bvssaitej138@gmail.com)
 GitHub Repository: https://github.com/SaiTejBarla/spark-nation
+
 
