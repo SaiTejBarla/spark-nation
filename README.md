@@ -9,7 +9,6 @@ The **Unified Intelligence Platform** is a data-driven ERP system designed to ma
 - Grant and fund management
 - Facility and resource booking
 - Mentor and investor engagement
-- Analytics and reporting
 
 The platform improves operational efficiency, supports data-driven decisions, and strengthens the startup ecosystem.
 
@@ -175,5 +174,6 @@ MIT License – see LICENSE file for details
 Contact
 Project Lead: SaiTej Barla (bvssaitej138@gmail.com)
 GitHub Repository: https://github.com/SaiTejBarla/spark-nation
+
 
 
