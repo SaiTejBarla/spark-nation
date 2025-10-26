@@ -46,8 +46,8 @@ The platform improves operational efficiency, supports data-driven decisions, an
 ## Tech Stack
 
 - **Backend**: FastAPI (Python)  
-- **Database**: PostgreSQL (SQL)  
-- **Frontend**: React.js (Web), React Native (Mobile)  
+- **Database**: SQL 
+- **Frontend**: HTML, React Native (Mobile)  
 - **Async Tasks**: Celery + Redis/RabbitMQ  
 - **Real-time Communication**: WebSockets  
 - **Deployment**: Docker + Kubernetes (Cloud / On-Premise)  
@@ -175,3 +175,4 @@ MIT License – see LICENSE file for details
 Contact
 Project Lead: Satya (your-email@example.com)
 GitHub Repository: https://github.com/SaiTejBarla/spark-nation
+
