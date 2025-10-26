@@ -22,7 +22,6 @@ The platform improves operational efficiency, supports data-driven decisions, an
 | **Grant & Financial Management** | Grant tracking, disbursement workflows, compliance reporting | Dashboard for grants, CRUD operations, mentor & admin views, AI evaluation suggestions for funding |
 | **Facility & Resource Booking** | Real-time booking, calendar integration, utilization analytics | Mobile-friendly booking UI, glassmorphism design, resource utilization tracking |
 | **Mentor & Investor Management** | Profile directories, matching algorithms, interaction logging | Mentor dashboard with startup interaction tracking, CRUD operations, AI suggestions for mentor-startup matching |
-| **Analytics & Reporting** | Dashboards for incubator managers and funding agencies | Enhanced dashboards with AI evaluation results, visual representation for admins and mentors |
 | **Communication & Collaboration** | Notifications, messaging, email integration, audit trails | Same, plus improved UI/UX with polished, responsive frontend |
 | **UI/UX Design** | Standard React.js UI | Fully responsive glassmorphism design, mobile support via React Native, improved usability |
 | **Authentication & Security** | JWT, RBAC, TLS 1.3, AES-256 encryption | Same, plus role-based access for frontend dashboards, token storage for mobile |
@@ -59,8 +58,8 @@ The platform improves operational efficiency, supports data-driven decisions, an
 ### Prerequisites
 
 - Python 3.11+  
-- PostgreSQL 14+  
-- Node.js 18+ (frontend)  
+- SQL 
+- HTML,CSS,JS(frontend)  
 - Docker (optional, for containerized setup)  
 
 ### Local Development
@@ -174,6 +173,7 @@ MIT License – see LICENSE file for details
 Contact
 Project Lead: SaiTej Barla (bvssaitej138@gmail.com)
 GitHub Repository: https://github.com/SaiTejBarla/spark-nation
+
 
 
 
